@@ -129,3 +129,11 @@ Color variants of the app mark live under `assets/logo/` (SVG + PNG). The
 shipping app icon is built from `mayoka-black.svg` into `assets/icon/AppIcon.icns`
 (`scripts/make_app_icon.py`). Other colors are reserved for a future in-app
 picker and are not wired into the `.app` yet.
+
+## Code Coverage
+
+[![codecov](https://codecov.io/gh/mayoka0/m-maps/graph/badge.svg)](https://codecov.io/gh/mayoka0/m-maps)
+
+Coverage is uploaded automatically by the [CI workflow](.github/workflows/ci.yml).
+
+For public repositories, Codecov can upload coverage without a token. For private forks, add a `CODECOV_TOKEN` secret to the repository if required.
